@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>User Registration</h1>
+        <div id="register-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button onclick="register()">Register</button>
+        </div>
+
+        <form id="otp-form">
+            <input type="number" id="otp" placeholder="Enter OTP" required>
+            <button type="button" onclick="verifyOTP()">Verify OTP</button>
+        </form>
+
+        <div id="response-message"></div>
+    </div>
+
+</body>
+
+</html>
